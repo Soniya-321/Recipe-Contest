@@ -1,0 +1,72 @@
+.sidebar {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .filterCategory {
+    margin-bottom: 15px;
+    flex-direction: row;
+  }
+  
+  h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .checkboxLabel {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    
+  }
+  /* Change color when checked */
+input[type="checkbox"]:checked {
+    accent-color: blue; /* Modern browsers support this */
+  }
+  
+  .clearButton {
+    background: white;
+    border: 1px rgb(45, 79, 228) solid;
+    color: rgb(45, 79, 228);
+    border-radius: 10px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 120px;
+  }
+  
+  .clearButton:hover {
+    background: blue;
+    color: white;
+  }
+  
+  /* Selected Filters Display */
+  .selectedFilters {
+    margin-top: 15px;
+  }
+  
+  
+  @media  screen and (min-width: 768px) {
+    .sidebar {
+      width: 200px !important;
+    }
+    
+  }

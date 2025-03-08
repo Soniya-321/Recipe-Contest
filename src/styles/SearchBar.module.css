@@ -1,0 +1,18 @@
+.searchInput {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px;
+  }
+  .searchInput:focus {
+    border-color: #ff6600;
+    outline: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    .searchInput {
+      width: 50%;
+    }
+  }
